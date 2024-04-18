@@ -9,6 +9,7 @@ num1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Digite um valor final:");
 num2 = int.Parse(Console.ReadLine());
+
 for (int i = num1+1; i < num2; i ++)
 {
     if (i % 2 == 0)
